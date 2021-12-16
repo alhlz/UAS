@@ -234,7 +234,7 @@ def aboutApp():
 # cuma buat mainProgram aja ini nanti disesuain mau bikinnya gimana
 def mainProgram():
     st.write("Alya Nissa Haliza 12220074 | UAS IF2112 Pemrograman Komputer")
-    image = Image.open("/oilrig1.jpeg"x)
+    image = Image.open("oilrig1.jpeg")
     st.image(image)
 
     #sidebar
