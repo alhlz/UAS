@@ -6,11 +6,11 @@ from PIL import Image
 import numpy as np
 
 # read and load json file 
-readjson = open("Downloads/kode_negara_lengkap.json")
+readjson = open("kode_negara_lengkap.json")
 dictjson = json.load(readjson)
 
 # read csv file
-readcsv = pd.read_csv("Downloads/produksi_minyak_mentah.csv")
+readcsv = pd.read_csv("produksi_minyak_mentah.csv")
 
 # print dan nampilin grafik produksi minyak
 def prodMinyak():
@@ -234,7 +234,7 @@ def aboutApp():
 # cuma buat mainProgram aja ini nanti disesuain mau bikinnya gimana
 def mainProgram():
     st.write("Alya Nissa Haliza 12220074 | UAS IF2112 Pemrograman Komputer")
-    image = Image.open('Downloads/oilrig1.jpeg')
+    image = Image.open("/oilrig1.jpeg"x)
     st.image(image)
 
     #sidebar
